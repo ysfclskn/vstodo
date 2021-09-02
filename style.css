@@ -1,0 +1,21 @@
+#changeName:hover{
+    color:#999;
+    cursor: grab;
+    
+}
+
+
+.display-4{
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 576px) { 
+
+    #todoName{
+        order: -1;
+    }
+
+    #dateContainer{
+        order:0;
+    }
+ }
